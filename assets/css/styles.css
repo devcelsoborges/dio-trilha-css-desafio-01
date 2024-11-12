@@ -79,7 +79,15 @@ section {
   background-color: transparent;
   border-image: linear-gradient(#3BA1CD, #1572B7);
   border-image-slice: 10;
-  border-radius: 30px;
+  
+}
+
+.banner .banner-content button:hover{
+  background-color: #31A8DD;
+  color: white;
+  transform: scale(1.05);
+    cursor: pointer;
+  
 }
 
 #course-content {
@@ -100,6 +108,10 @@ section {
   padding: 16px;
   border-radius: 100px;
   box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
+}
+#course-content .modules-list .module:hover {
+  transform: scale(1.05);
+    cursor: pointer;
 }
 
 #course-content .modules-list .module span {
